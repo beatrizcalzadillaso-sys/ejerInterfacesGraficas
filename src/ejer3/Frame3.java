@@ -67,41 +67,37 @@ public class Frame3 extends JFrame {
 		contentPane.add(lblLastName2);
 		
 		JLabel lblAge = new JLabel("Edad:");
-		lblAge.setBounds(39, 206, 46, 14);
+		lblAge.setBounds(39, 209, 46, 14);
 		contentPane.add(lblAge);
 		
 		JTextField tf_Name = new JTextField();
-		tf_Name.setBounds(186, 39, 118, 20);
+		tf_Name.setBounds(120, 40, 118, 20);
 		contentPane.add(tf_Name);
 		tf_Name.setColumns(10);
 		
 		tf_LastName1 = new JTextField();
 		tf_LastName1.setColumns(10);
-		tf_LastName1.setBounds(186, 80, 118, 20);
+		tf_LastName1.setBounds(120, 80, 118, 20);
 		contentPane.add(tf_LastName1);
 		
 		tf_LastName2 = new JTextField();
 		tf_LastName2.setColumns(10);
-		tf_LastName2.setBounds(186, 121, 118, 20);
+		tf_LastName2.setBounds(120, 121, 118, 20);
 		contentPane.add(tf_LastName2);
 		
 		tf_Age = new JTextField();
 		tf_Age.setColumns(10);
-		tf_Age.setBounds(186, 203, 118, 20);
+		tf_Age.setBounds(120, 206, 118, 20);
 		contentPane.add(tf_Age);
-		
-		JLabel lbl_ID = new JLabel("Identificacion:");
-		lbl_ID.setBounds(28, 169, 89, 14);
-		contentPane.add(lbl_ID);
 		
 		JComboBox cb_SelectID = new JComboBox();
 		cb_SelectID.setModel(new DefaultComboBoxModel(new String[] {"DNI", "NIE"}));
-		cb_SelectID.setBounds(115, 165, 46, 22);
+		cb_SelectID.setBounds(39, 165, 46, 22);
 		contentPane.add(cb_SelectID);
 		
 		tf_ID = new JTextField();
 		tf_ID.setColumns(10);
-		tf_ID.setBounds(186, 166, 118, 20);
+		tf_ID.setBounds(120, 166, 118, 20);
 		contentPane.add(tf_ID);
 
 	}
